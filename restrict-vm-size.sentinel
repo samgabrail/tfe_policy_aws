@@ -1,3 +1,5 @@
+# all AWS VMs have vm sizes from an allowed list. The list of allowed_vm_sizes = ["t2.nano", "t2.micro", "t2.small"]
+
 import "tfplan"
 
 # Get an array of all resources of the given type (or an empty array).
